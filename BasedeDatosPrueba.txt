@@ -1,0 +1,12 @@
+Create database Prueba;
+USE Prueba;
+create table usuarios(
+idUser Int NOT NULL primary key,
+Nombre VARCHAR (50) NOT NULL,
+Apellido VARCHAR (50) NOT NULL,
+Ciudad  VARCHAR(50)NOT NULL,
+Telefono INT NOT NULL,
+Puesto VARCHAR (50)
+);
+
+INSERT INTO usuarios (Nombre,Apellido,Ciudad,Telefono,Puesto) VALUES("luis","valdes","Nueva York",5526089675,"Gerente");
